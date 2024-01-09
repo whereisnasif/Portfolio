@@ -14,7 +14,7 @@ $(document).ready(function () {
   })(jQuery);
 
   // input text for typing animation
-  $("#holder").writeText("SOFTWARE ENGINEER + NOVICE PHOTOGRAPHER");
+  $("#holder").writeText("SOFTWARE ENGINEER");
 
   // initialize wow.js
   new WOW().init();
@@ -79,7 +79,7 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["home", "about", "portfolio", "contact", "connect"],
+    navigationTooltips: ["HOME", "ABOUT", "portfolio", "contact", "connect"],
     anchors: ["home", "about", "portfolio", "contact", "connect"],
     menu: "#myMenu",
     fitToSection: false,
